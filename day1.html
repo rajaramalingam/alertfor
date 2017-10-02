@@ -1,0 +1,74 @@
+<html>
+<head>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<title>event</title>
+
+</head>
+<body>
+	<section class="container w-50">
+		<div class="row mt-2">
+			<div class="col">
+				<input onkeydown="demo()" id="click">
+			</div>
+		</div>
+<!--  -->
+		<div class="row">
+			<div class="col">
+				<input type="text" onfocus="focused()" id="demo1">
+			</div>
+		</div>
+<!--  -->
+         <div class="row">
+			<div class="col">
+				<input type="text" onblur="blurer()" id="demo2">
+			</div>
+		</div>
+<!--  -->
+		<div class="row mt-2">
+			<div class="col">
+				<button onclick="msge()"> press here</button>
+			</div>
+		</div>
+<!--  -->
+		<div clas="row ">
+			<div class="col">
+				<div class="col mt-2">
+			<div class="form-group">
+    			<select class="form-control" id="india">
+    			 	<option>Sachin</option>
+     				 <option>Sehwag</option>
+     				 <option>Dhoni</option>
+     				 <option>Kholi</option>
+     				 <option>Raina</option>
+    			</select>
+  			</div>
+			<button ondblclick="match()">click</button>
+			<p id="score"></p>
+				</div>
+			</div>
+		</div>
+<!--  -->
+     <div class="row">
+			<div class="col">
+				<p>Input : [1, 2, 3, 1, 2, 3, 12, 1, 4, 1, 5, 6, 7, 8, 3, 4, 1 ]</p>
+				<input  type="number" id="x">
+				<input type="submit"  value="find" onclick="findValue()">
+				<p>the number repeats : <span id="res" style="color:red"></span>times</p>
+			</div>
+		</div>
+<!--  -->
+	<div class="row">
+		<div class="col">
+			<p id="answer"></p>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col">
+			<p id="answer1"></p>
+		</div>
+	</div>
+
+	</section>
+	<script type="text/javascript" src="day1.js"></script>
+</body>
+</html>
